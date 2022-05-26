@@ -30,6 +30,7 @@ namespace RiskScreenDemoApi.Controllers
                 return BadRequest("Empty string cannot be reversed"); 
             }
 
+            //minor change to test CI/CD pipeline Delete later
             var reverseCharArray = request.ToCharArray();
 
             Array.Reverse(reverseCharArray);              
