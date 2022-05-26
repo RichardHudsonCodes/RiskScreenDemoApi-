@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>87bfd462-fd5a-4de5-b540-20d8d324a8e6</UserSecretsId>
   </PropertyGroup>
 
 
@@ -16,5 +18,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Dockerfile.cshtml" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  riskscreendemoapi:
+    image: ${DOCKER_REGISTRY-}riskscreendemoapi
+    build:
+      context: .
+      dockerfile: RiskScreenDemoApi/Dockerfile
