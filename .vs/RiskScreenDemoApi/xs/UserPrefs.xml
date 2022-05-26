@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{DFE3DBA1-1747-48EC-AC86-09F140A02DDF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".dockerignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RiskScreenDemoApi/RiskScreenDemoApi.csproj">
     <Files>
       <File FileName="RiskScreenDemoApi/Contracts/StringReverseRequest.cs" Line="9" Column="1" />
       <File FileName="RiskScreenDemoApi/Contracts/StringReverseResponse.cs" />
       <File FileName="RiskScreenDemoApi/Controllers/StringReverseController.cs" Line="37" Column="6" />
-      <File FileName="RiskScreenDemoApi/Dockerfile" Line="1" Column="1" />
+      <File FileName="RiskScreenDemoApi/Dockerfile" Line="10" Column="25" />
       <File FileName="docker-compose.yml" Line="9" Column="1" />
       <File FileName="azure-pipelines.yml" Line="1" Column="1" />
-      <File FileName=".dockerignore" Line="20" Column="17" />
+      <File FileName=".dockerignore" Line="16" Column="10" />
+      <File FileName="RiskScreenDemoApi/RiskScreenDemoApi.csproj" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +16,8 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="RiskScreenDemoApi" expanded="True">
             <Node name=".vs" expanded="True" />
-            <Node name="docker-compose" expanded="True">
-              <Node name=".dockerignore" selected="True" />
-            </Node>
-            <Node name="RiskScreenDemoApi" expanded="True" />
+            <Node name="docker-compose" expanded="True" />
+            <Node name="RiskScreenDemoApi" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
