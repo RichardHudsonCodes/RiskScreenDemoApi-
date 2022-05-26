@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{BA8172E0-F67F-49CE-8448-F081FAB2CA3C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RiskScreenDemoApi/Controllers/StringReverseController.cs">
+    <Files>
+      <File FileName="RiskScreenDemoApi/Contracts/StringReverseRequest.cs" Line="9" Column="1" />
+      <File FileName="RiskScreenDemoApi/Contracts/StringReverseResponse.cs" />
+      <File FileName="RiskScreenDemoApi/Controllers/StringReverseController.cs" Line="30" Column="57" />
+      <File FileName="RiskScreenDemoApi/Properties/launchSettings.json" />
+      <File FileName="RiskScreenDemoApi/Startup.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="RiskScreenDemoApi" expanded="True">
+            <Node name="RiskScreenDemoApi" expanded="True">
+              <Node name="Contracts" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="StringReverseController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RiskScreenDemoApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/richardhudson/Projects/RiskScreenDemoApi/RiskScreenDemoApi/Controllers/StringReverseController.cs" relfile="RiskScreenDemoApi/Controllers/StringReverseController.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
