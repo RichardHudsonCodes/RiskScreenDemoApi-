@@ -14,7 +14,7 @@ variables:
   imageRepository: 'richardhudsoncodesriskscreendemoapi'
   containerRegistry: 'riskscreencontainerregistery.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/RiskScreenDemoApi/Dockerfile'
-  tag: 'latest'
+  tag: '$(Build.BuildId)'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
