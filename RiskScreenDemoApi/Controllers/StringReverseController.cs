@@ -39,6 +39,27 @@ namespace RiskScreenDemoApi.Controllers
             response.reveresedString =new string(reverseCharArray);  
 
             return response;
-        }        
+        }
+
+
+        //swagger does not support get requests with payloads (complex type parameters)
+        [HttpPost]
+        public async Task<ActionResult<StringReverseResponse>> Post(string request)
+        {
+            if (string.IsNullOrEmpty(request))
+            {
+                return BadRequest("Empty string cannot be reversed");
+            }
+
+            //minor change to test CI/CD pipeline Delete later
+            var reverseCharArray = request.ToCharArray();
+
+            Array.Reverse(reverseCharArray);
+
+            var response = new StringReverseResponse();
+            response.reveresedString = new string(reverseCharArray);
+
+            return response;
+        }
     }
 }
